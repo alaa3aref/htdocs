@@ -1,0 +1,27 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies
+/vendor/
+
+# Runtime storage
+/storage/logs/*
+!/storage/logs/.gitignore
+/storage/uploads/*
+!/storage/uploads/.gitignore
+/storage/backups/*
+!/storage/backups/.gitignore
+/storage/reports/*
+!/storage/reports/.gitignore
+/storage/private/*
+!/storage/private/.gitignore
+
+# IDE and operating system files
+/.idea/
+/.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
